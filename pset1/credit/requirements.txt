@@ -1,0 +1,24 @@
+American Express
+    15 digits
+    starts 34 or 37
+
+MasterCard
+    16 digits
+    starts 51, 52, 53, 54, 55
+
+Visa
+    13 or 16 digits
+    starts 4
+
+
+Checksum
+4003600000000014
+
+every other number, from the second-to-last
+4 0 6 0 0 0 0 1
+multiply by 2 and add them together
+8 0 12 0 0 0 0 2 = 13
+
+add the sum to the other digits
+13 + 0 3 0 0 0 0 0 4
+=20
